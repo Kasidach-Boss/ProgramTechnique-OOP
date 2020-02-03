@@ -6,7 +6,9 @@ public class ContractEmployee extends Employee{
     }
     @override
     public void introduce(){
-        System.out.println(super.EMintroduce());
+        System.out.println("Name:"+super.name);
+        System.out.println("Name:"+super.age);
+        System.out.println("Name:"+super.employeeid);
         System.out.println("Payment: "+this.payment);
 
     }
