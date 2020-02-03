@@ -9,7 +9,7 @@ class DiceBox{
     }
     public void shake(){
         for(int p=0; p < DiceBoxList.size(); p++){
-            DiceBoxList.get(p).getFace();
+            DiceBoxList.get(p).getFace(); // DiceBoxList.get(p).roll();
         }
     }
     public int getTotal(){
@@ -20,8 +20,10 @@ class DiceBox{
         return result;
     }
     public void printDices(){
-        for (int p=1; p<= DiceBoxList.size(); p++){
+        for (int p=0; p<= DiceBoxList.size(); p++){
+            
             System.out.println(DiceBoxList.get(p).getFace());
+            // sout("Dice "+(p+1)+"="+DiceBoxList.get(p).getFace();
         }
     }
 }
