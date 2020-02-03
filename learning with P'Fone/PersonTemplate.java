@@ -1,4 +1,5 @@
-// Via. P'Fone
+// Via. P'Fone Danukrit
+// Inheritance in java 
 class Person {
     private String name;
     private String id;
